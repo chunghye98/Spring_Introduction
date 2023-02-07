@@ -12,5 +12,5 @@ public interface MemberRepository {
 
     Optional<Member> findByName(String name);
 
-    List<Member> finaAll();
+    List<Member> findAll();
 }
